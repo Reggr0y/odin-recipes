@@ -6,6 +6,7 @@
 
 img {
     width: 350px;
+    border: #e7a43b double 10px;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h2 {
     color: #8cb8c5;
     font-size: 36px;
     font-weight: bold; 
+    text-shadow: -2px 0 #e7a43b, 0 2px #e7a43b, 2px 0 #e7a43b, 0 -2px #e7a43b;
 }
 
 h3 {
@@ -37,6 +39,7 @@ ul, li, ol, a {
     background-color: #8cb8c5;
     font-size: 24px;
     color: white;
+    border: #e7a43b solid 4px;
 }
 
 ul li {
@@ -45,4 +48,19 @@ ul li {
 
 ol li {
     text-align: justify;
+    border: #e7a43b solid 4px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    padding: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ingredients {
+    list-style-type: none;
+    padding: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
