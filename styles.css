@@ -2,6 +2,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #d0839a;
     text-align: center;
+    border: black solid 2px;
 }
 
 img {
@@ -14,6 +15,7 @@ h1 {
     font-size: 50px;
     font-weight: bolder; 
     color: #d0839a;
+    text-shadow: 2px 2px black ;
 }
 
 h2 {
@@ -51,16 +53,13 @@ ol li {
     border: #e7a43b solid 4px;
 }
 
-.nav-bar {
+.nav-bar, .ingredients {
     list-style-type: none;
     padding: 3px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 20px 25%;
 }
 
-.ingredients {
-    list-style-type: none;
-    padding: 3px;
-    margin-left: 25%;
-    margin-right: 25%;
+.steps {
+    padding: 2px 30px;
+    margin: 20px 25%;
 }
