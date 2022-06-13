@@ -64,6 +64,10 @@ ol li {
     margin: 20px 25%;
 }
 
+.nav-item {
+    margin: 0 3px;
+}
+
 .steps {
     padding: 3px 3px 3px 30px;
     margin: 3px 25%;
