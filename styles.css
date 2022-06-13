@@ -67,6 +67,19 @@ ol li {
     margin: 0 3px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    flex: 1 1 auto;
+}
+
+.box2 {
+    flex: 1 1 auto;
+}
+
 .steps {
     padding: 3px 3px 3px 30px;
     margin: 3px 25%;
