@@ -36,31 +36,33 @@ p {
     font-size: 24px;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul, li, ol, a {
     background-color: #8cb8c5;
     font-size: 24px;
     color: white;
     border: #e7a43b solid 4px;
-}
-
-ul li {
     text-align: justify;
-}
-
-ol li {
-    text-align: justify;
-    border: #e7a43b solid 4px;
 }
 
 .nav-bar, .ingredients {
     list-style-type: none;
     padding: 3px;
+}
+
+.ingredients {
     margin: 20px 25%;
 }
 
+
 .nav-bar {
-    display: inline-flex;
-    margin: 20px 25%;
+    width: 370px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-item {
